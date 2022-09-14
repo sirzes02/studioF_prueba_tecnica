@@ -1,0 +1,15 @@
+C:\Users\santi\source\repos\point_2\point_2\bin\Debug\net6.0\point_2.exe
+C:\Users\santi\source\repos\point_2\point_2\bin\Debug\net6.0\point_2.deps.json
+C:\Users\santi\source\repos\point_2\point_2\bin\Debug\net6.0\point_2.runtimeconfig.json
+C:\Users\santi\source\repos\point_2\point_2\bin\Debug\net6.0\point_2.dll
+C:\Users\santi\source\repos\point_2\point_2\bin\Debug\net6.0\point_2.pdb
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.AssemblyInfo.cs
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.dll
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\refint\point_2.dll
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.pdb
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\point_2.genruntimeconfig.cache
+C:\Users\santi\source\repos\point_2\point_2\obj\Debug\net6.0\ref\point_2.dll

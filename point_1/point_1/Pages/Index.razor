@@ -1,0 +1,34 @@
+﻿@page "/"
+@inject HttpClient Http
+@using Microsoft.Extensions.Logging
+@inject ILogger<Index> Logger
+
+<PageTitle>Point 1</PageTitle>
+
+<h1>Technical test</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (products == null)
+{
+    <p><em>Is loading...</em></p>
+}
+else
+{
+    <IgbDataGrid columns Height="400px" DataSource="@products">
+        <IgbTextColumn Width="@("*>130")" Field="productReference" HeaderText="Reference" />
+        <IgbTextColumn Width="@("*>130")" Field="productName" HeaderText="Name" />
+        <IgbTextColumn Width="@("*>130")" Field="brand" HeaderText="Brand" />
+        <IgbTextColumn Width="@("*>130")" Field="categoryId" HeaderText="Category" />
+     </IgbDataGrid>
+}
+
+@code {
+    private Product[]? products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("https://qastudiof.myvtex.com/api/catalog_system/pub/products/search");
+
+    }
+}
